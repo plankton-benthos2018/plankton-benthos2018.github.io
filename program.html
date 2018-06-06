@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css">
+  <link rel="stylesheet" href="style/normalizer-min.css">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="style/base.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="script/three.min.js"></script>
+</head>
+
+<body id="body">
+  <header>
+    <div class="hamburger">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <nav id='global-nav'>
+      <ul class='global-nav__wrapper'>
+        <li>
+          <a class='nav__list-parent' href='index.html'>HOME</a>
+        </li>
+        <li class='nav__list-parent nav__toggle'>
+          <a href='venue.html' class="main__title">大会会場</a>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>
+              <a href="venue.html#venue">会場</a>
+            </li>
+            <li>
+              <a href="venue.html#access">アクセス</a>
+            </li>
+            <li>
+              <a href="venue.html#bus_guide">バスのご案内</a>
+            </li>
+            <li>
+              <a href="venue.html#campus_map">キャンパスマップ</a>
+            </li>
+          </ul>
+        </li>
+        <li class='nav__list-parent nav__toggle'>
+          <a href='program.html' class="main__title">大会プログラム</a>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>
+              <a href="program.html#conference_program">大会日程</a>
+            </li>
+
+            <li>
+              <a href="program.html#public_symposium">公開シンポジウム・自由集会</a>
+            </li>
+            <li>
+              <a href="program.html#conference_dinner">懇親会</a>
+            </li>
+            <li>
+              <a href="program.html#young_member_meeting">若手の会</a>
+            </li>
+          </ul>
+        </li>
+        <li class='nav__list-parent nav__toggle'>
+          <a href='subscription.html' class="main__title">参加・発表申込</a>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>
+              <a href="subscription.html#registration">大会参加費</a>
+            </li>
+            <li>
+              <a href="subscription.html#pre_register">事前申込</a>
+            </li>
+            <li>
+              <a href="subscription.html#register_on_the_day">当日申込</a>
+            </li>
+          </ul>
+        </li>
+        <li class='nav__list-parent nav__toggle'>
+          <a href='announce.html' class="main__title">発表される皆様へ</a>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>
+              <a href="announce.html#annouce">発表される皆様へ</a>
+            </li>
+            <li>
+              <a href="announce.html#oral_presentation">口頭発表</a>
+            </li>
+            <li>
+              <a href="announce.html#poster_presentation">ポスター発表</a>
+            </li>
+            <li>
+              <a href="announce.html#presentations_outline">講演要旨の提出</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href='deadline.html' class='nav__list-parent'>各種締切日</a>
+        </li>
+        <li class='nav__list-parent nav__toggle'>
+          <a href='guide.html' class='main__title'>宿泊・観光案内</a>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>
+              <a href="guide.html#tourist_information">観光案内</a>
+            </li>
+            <li>
+              <a href="guide.html#accomodation_guide">宿泊先のご案内</a>
+            </li>
+          </ul>
+        </li>
+        <li class='nav__list-parent nav__toggle'>
+          <a href='log.html' class="main__title">大会実行委員会
+            <br>大会ページ更新履歴</a>
+          <i class="fas fa-caret-down"></i>
+          <ul>
+            <li>
+              <a href="log.html#conference_exective_committee">大会実行委員会</a>
+            </li>
+            <li>
+              <a href="log.html#change_log">更新履歴</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="content__header-section"></div>
+  <div class="content__main-title">
+    <h1>大会プログラム</h1>
+  </div>
+  <div class="content-box__wrapper">
+    <div id="conference_program" class="content-box">
+      <h2 class="content__title-en">Conference Program</h2>
+      <h2 class="content__title-ja">大会プログラム</h2>
+      <div class="sub-title__wrapper">
+        <h3 class="content__title-small">大会日程</h3>
+      </div>
+      <p>9月9日（日）：公開シンポジウム・評議委員会・運営委員会・若手の会（プランクトン）・自由集会（募集中）</p>
+      <p>9月10日（月）：研究発表・ベントス学会総会・懇親会</p>
+      <p>9月11日（火）：研究発表・閉会式（表彰式）・若手の会（ベントス）</p>
+      <div class="program_pdf_section">
+        <i class="far fa-file-pdf"></i>
+        <a href="#" class="program_pdf" title="">大会日程詳細（随時更新致します）</a>
+        <br>
+        <i class="far fa-file-pdf"></i>
+        <a href="#" class="program_pdf" title="">発表プログラム（随時更新致します）</a>
+      </div>
+    </div>
+    <div id="public_symposium" class="content-box">
+      <h2 class="content__title-en">Symposium, Organized Meetings</h2>
+      <h2 class="content__title-ja">公開シンポジウム・自由集会</h2>
+      <p>奮ってご応募ください。</p>
+      <p>シンポジウムは一般公開とし、両学会の共通のテーマとなるようにご配慮願います。</p>
+      <p>大会事務局<a href="mailto:plaben2018@gmail.com">plaben2018@gmail.com</a>あてにご連絡ください（様式は任意）。募集締切日は<span class="emphasis_underline">6月30日（土）</span></p>
+    </div>
+    <div id="conference_dinner" class="content-box">
+      <h2 class="content__title-en">Conference Dinner</h2>
+      <h2 class="content__title-ja">懇親会</h2>
+      <p>詳細を詰めております。随時更新いたします。</p>
+    </div>
+    <div id="young_member_meeting" class="content-box">
+      <h2 class="content__title-en">Young Member Meetings</h2>
+      <h2 class="content__title-ja">若手の会</h2>
+      <div class="content-box__article">
+        <div class="sub-title__wrapper">
+          <h3 class="content__title-small">日本プランクトン学会　若手の会</h3>
+        </div>
+        <table class="program__table">
+          <tr>
+            <td class="young_member_meeting__table-title">開催日</td>
+            <td>2018年 9月 9日（日）</td>
+          </tr>
+          <tr>
+            <td class="young_member_meeting__table-title">開催時間</td>
+            <td>16:30 - 19:30</td>
+          </tr>
+          <tr>
+            <td class="young_member_meeting__table-title">開催場所</td>
+            <td>創価大学 中央教育棟 AC531</td>
+          </tr>
+          <tr>
+            <td class="young_member_meeting__table-title">参加費</td>
+            <td>無料</td>
+          </tr>
+          <tr>
+            <td class="young_member_meeting__table-title">内容</td>
+            <td>自己紹介と若手研究発表</td>
+          </tr>
+          <tr>
+            <td class="young_member_meeting__table-title">研究発表の講演者（予定）</td>
+            <td>籠橋重樹（北海道大M2）、米田壮太（北海道大M2）、小原静夏（広島大D2）、眞野能（愛媛大D3）、上野幹憲（熊本大 研究員）、桂将太（東京大 特任研究員）</td>
+          </tr>
+          <tr>
+            <td class="young_member_meeting__table-title">懇親会</td>
+            <td>若手の会終了後、直ちに開催します。参加申込み者に対し、後日ご連絡いたします。</td>
+          </tr>
+          <tr>
+            <td class="young_member_meeting__table-title">会場での飲食について</td>
+            <td>和やかな雰囲気で会を進めるため、集会中の飲食（軽食）を推奨しています。残念ながら当若手の会には財力がありませんので、地域間交流を図るためにも、余裕のある方は地元のお菓子等をお持ち頂けると助かります。飲み物も各自でご準備下さい（アルコールを除く）</td>
+          </tr>
+          <tr>
+            <td class="young_member_meeting__table-title">参加登録方法</td>
+            <td>以下のURLをクリック後、必要事項を入力してご送信下さい<a href="https://goo.gl/forms/zduLmBpZqSS1Hy2D3">https://goo.gl/forms/zduLmBpZqSS1Hy2D3</a></td>
+          </tr>
+          <tr>
+            <td class="young_member_meeting__table-title">申込締切</td>
+            <td>7月31日（火）</td>
+          </tr>
+          <tr>
+            <td class="young_member_meeting__table-title">世話人</td>
+            <td>朝日俊雅、鈴木健太郎、仲村康秀、土屋健司、山田和正</td>
+          </tr>
+        </table>
+        <p class="table__comments">若手の会の活動や過去の集会の様子は
+          <a href="https://sites.google.com/site/plawakate2014/">若手の会ホームページ</a>でご覧いただけます。ご参考ください。</p>
+      </div>
+      <div class="sub-title__wrapper">
+        <h3 class="content__title-small">日本ベントス学会　若手の会</h3>
+      </div>
+      <table class="program__table">
+        <tr>
+          <td class="young_member_meeting__table-title">開催日時</td>
+          <td>2018年 9月 11日（火）19:00 - 9月 12日（水）10:00</td>
+        </tr>
+        <tr>
+          <td class="young_member_meeting__table-title">開催場所</td>
+          <td>八王子市　スタジオ・ライトハウス（参加申込後に所在地等を連絡します）</td>
+        </tr>
+        <tr>
+          <td class="young_member_meeting__table-title">参加費</td>
+          <td>2200円（施設利用費200円、宿泊費500円、食費1500円。アルコールは実費）</td>
+        </tr>
+        <tr>
+          <td class="young_member_meeting__table-title">参加条件</td>
+          <td>学生を含む自称若手研究者</td>
+        </tr>
+        <tr>
+          <td class="young_member_meeting__table-title">実施内容</td>
+          <td>希望者による研究紹介（1人15分程度）</td>
+        </tr>
+        <tr>
+          <td class="young_member_meeting__table-title">スケジュール</td>
+          <td>
+            <dl class="young_member_meeting__table-schedule">
+              <dt>9月11日</dt>
+              <div class="young_member_meeting__table-schedule-discription">
+                <dd>19:00 スタジオ・ライトハウス集合、利用の説明、夕食</dd>
+                <dd>21:00 研究発表</dd>
+              </div>
+            </dl>
+            <dl class="young_member_meeting__table-schedule">
+              <dt>9月12日</dt>
+              <div class="young_member_meeting__table-schedule-discription">
+                <dd>8:00 起床、朝食</dd>
+                <dd>10:00 清掃、解散</dd>
+              </div>
+            </dl>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <div class="program_subscription_section">
+        <i class="fas fa-edit"></i>
+        <p>申込方法</p>     
+      </div>
+      <p>参加ご希望の方は以下の内容を飯島明子<a src="mailto:iijima-a@kanda.kuis.ac.jp"></a>iijima-a@kanda.kuis.ac.jpにメールで送り、申し込んでください。<span class="emphasis_underline">締切は8月8日（水）です。</span></p>
+      <ul class="program_subscription_list">
+        <li>氏名：</li>
+        <li>所属と学年等：</li>
+        <li>発表希望：有・無<br>有の方→発表タイトル「　　　　　　」</li>
+        <li>食物等のアレルギー：有・無<br>有の方→食品名等（　　　　　　　　　　　）</li>
+        <li>メールアドレス：</li>
+        <li>携帯電話番号（任意。緊急時連絡に使います）：</li>        
+      </ul>
+      <p class="table__comments">・申込先着順に受付を行います。定員に達した場合には募集を締め切らせていただきます。</p>
+      <p class="table__comments">・研究発表用にプロジェクタとスクリーンをご利用いただけます。PCはご持参ください。</p>
+      <p class="table__comments">・宿泊は会場（1階）に男性、2階に女性で分かれて雑魚寝です。寝袋をご持参ください。会場に寝袋が4個ありますが、使用される場合は+500円頂きます。</p>
+      <p class="table__comments">・洗面用具、バスタオル、シャンプー等はご持参ください。</p>
+      <p class="table__comments">・食事はある程度用意をし、材料も購入しておきます。調理・配膳・片付け等のご協力よろしくお願いいたします。</p>
+      <p class="table__comments">・いただいた情報を元に食物アレルギーに配慮した食事・食材を準備しますが、厳密な除去食は用意できません。必要な方はご自分の食料をご持参ください（申込の際にその旨ご連絡ください）。</p>
+    </div>
+  </div>
+  <footer id='footer'></footer>
+  <script src='script/base.js'></script>
+</body>
+
+</html>
