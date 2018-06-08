@@ -165,7 +165,7 @@ $(function () {
     console.log('ハンバーガー')
     $('#global-nav').slideToggle()
   })
-  $('#footer').load('../footer.html')
+  $('#footer').load('footer.html')
 
   //URLのハッシュ値を取得
   var urlHash = location.hash;
