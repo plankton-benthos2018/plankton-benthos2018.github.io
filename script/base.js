@@ -36,7 +36,7 @@ $(function () {
 
       // camera
       var aspect = container.offsetWidth / container.offsetHeight;
-      camera = new THREE.PerspectiveCamera(15, aspect, 1, 2000);
+      camera = new THREE.PerspectiveCamera(15, aspect, 400, 1500);
       camera.position.z = 900; //cameraの引き具合
 
       wrapper = new THREE.Group(); //wrapperにparticle達を格納
@@ -110,7 +110,7 @@ $(function () {
 
     // PointCloudMaterial
     materials = new THREE.PointsMaterial({
-      size: 6,
+      size: 4,
       map: createCircleTexture('white', 8),
       blending: THREE.AdditiveBlending,
       depthTest: true,
