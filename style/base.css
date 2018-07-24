@@ -256,12 +256,11 @@ header {
         header nav ul.global-nav__wrapper .nav__list-parent:hover ul {
           display: block;
           margin-top: 15px;
-          width: 200px;
           position: absolute;
           left: 0; }
           header nav ul.global-nav__wrapper .nav__list-parent:hover ul li {
             display: block;
-            padding: 3px 0 3px 15px; }
+            padding: 3px 15px 3px 15px; }
             header nav ul.global-nav__wrapper .nav__list-parent:hover ul li a {
               color: #333;
               text-decoration: none; }
@@ -269,6 +268,8 @@ header {
               background-color: rgba(0, 0, 0, 0.1); }
     header nav ul.global-nav__wrapper .nav__list-parent:hover ul {
       display: block; }
+      header nav ul.global-nav__wrapper .nav__list-parent:hover ul li a {
+        white-space: nowrap; }
 
 footer #footer__inner {
   height: 50px;

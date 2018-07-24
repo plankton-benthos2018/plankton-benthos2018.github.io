@@ -162,7 +162,6 @@ $(function () {
   });
 
   $('.hamburger').on('click', function () {
-    console.log('ハンバーガー')
     $('#global-nav').slideToggle()
   })
   $('#footer').load('footer.html')
