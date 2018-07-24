@@ -428,8 +428,7 @@ footer #footer__inner {
   margin: 10px 0 10px 44px; }
 
 .application_download {
-  margin-top: 18px;
-  margin-bottom: 50px; }
+  margin-top: 18px; }
 
 .file_1,
 .file_2,
@@ -522,6 +521,10 @@ footer #footer__inner {
     width: 90vw; }
     body .content-box__wrapper .content-box {
       width: 90vw; } }
+
+.pre_register__table {
+  margin-bottom: 50px;
+  margin-top: 20px; }
 
 .nursery-list {
   margin: 50px 0; }
