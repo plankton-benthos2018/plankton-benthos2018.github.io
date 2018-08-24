@@ -456,7 +456,17 @@ footer #footer__inner {
   height: auto; }
 
 .floor_map__wrapper {
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
+  .floor_map__wrapper:nth-of-type(3) {
+    margin-top: 20px; }
+  .floor_map__wrapper:nth-of-type(4) {
+    margin-top: 46px; }
+  .floor_map__wrapper:nth-of-type(5) {
+    margin-top: 59px; }
+  .floor_map__wrapper .floor_map {
+    width: 392px;
+    height: auto; }
 
 .registration_table .rowspan_2 {
   vertical-align: middle;
